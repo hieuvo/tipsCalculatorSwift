@@ -3,6 +3,7 @@ Tip
 ==================
 
 Tip Calculator app
+Time spent: 10 hours
 
 Completed user stories:
 
