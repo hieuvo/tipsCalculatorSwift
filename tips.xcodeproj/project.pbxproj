@@ -15,6 +15,8 @@
 		2464A0231C67B8BA00A60509 /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2464A0221C67B8BA00A60509 /* tipsTests.swift */; };
 		2464A02E1C67B8BA00A60509 /* tipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2464A02D1C67B8BA00A60509 /* tipsUITests.swift */; };
 		2464A03C1C684A8400A60509 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2464A03B1C684A8400A60509 /* SettingsViewController.swift */; };
+		24BDD2E11D05D78000D3BB9A /* ReceiptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDD2E01D05D78000D3BB9A /* ReceiptView.swift */; };
+		24BDD2E31D05D7A200D3BB9A /* ReceiptView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24BDD2E21D05D7A200D3BB9A /* ReceiptView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2464A02D1C67B8BA00A60509 /* tipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsUITests.swift; sourceTree = "<group>"; };
 		2464A02F1C67B8BA00A60509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2464A03B1C684A8400A60509 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		24BDD2E01D05D78000D3BB9A /* ReceiptView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptView.swift; sourceTree = "<group>"; };
+		24BDD2E21D05D7A200D3BB9A /* ReceiptView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceiptView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				2464A00D1C67B8BA00A60509 /* AppDelegate.swift */,
 				2464A00F1C67B8BA00A60509 /* ViewController.swift */,
 				2464A0111C67B8BA00A60509 /* Main.storyboard */,
+				24BDD2E01D05D78000D3BB9A /* ReceiptView.swift */,
+				24BDD2E21D05D7A200D3BB9A /* ReceiptView.xib */,
 				2464A03B1C684A8400A60509 /* SettingsViewController.swift */,
 				2464A0141C67B8BA00A60509 /* Assets.xcassets */,
 				2464A0161C67B8BA00A60509 /* LaunchScreen.storyboard */,
@@ -238,6 +244,7 @@
 				2464A0181C67B8BA00A60509 /* LaunchScreen.storyboard in Resources */,
 				2464A0151C67B8BA00A60509 /* Assets.xcassets in Resources */,
 				2464A0131C67B8BA00A60509 /* Main.storyboard in Resources */,
+				24BDD2E31D05D7A200D3BB9A /* ReceiptView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +272,7 @@
 				2464A0101C67B8BA00A60509 /* ViewController.swift in Sources */,
 				2464A00E1C67B8BA00A60509 /* AppDelegate.swift in Sources */,
 				2464A03C1C684A8400A60509 /* SettingsViewController.swift in Sources */,
+				24BDD2E11D05D78000D3BB9A /* ReceiptView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +497,7 @@
 				2464A0341C67B8BA00A60509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2464A0351C67B8BA00A60509 /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +506,7 @@
 				2464A0371C67B8BA00A60509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2464A0381C67B8BA00A60509 /* Build configuration list for PBXNativeTarget "tipsUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +515,7 @@
 				2464A03A1C67B8BA00A60509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

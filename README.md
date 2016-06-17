@@ -1,18 +1,58 @@
-# tipsCalculatorSwift
-Tip
-==================
+# Pre-work - *TipCalculator V1.1*
 
-Tip Calculator app
-Time spent: 10 hours
+**TipCalculator V1.1** is a tip calculator application for iOS.
 
-Completed user stories:
+Submitted by: **Hieu Vo**
 
-* [x] Required: Basic tip calculator functionatliy
-* [x] Required: Settings page/ choose currency
-* [x] Optional: Remember the bill amount across app restarts
-* [x] Optional: Change percentage of tip
-* [x] Optional: Change app's background color, font
+Time spent: **3** hours spent in total
 
-**Walkthrough of required and optional user stories:**
+## User Stories
 
-![](gif/tips.gif)
+The following **required** functionality is complete:
+
+* [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [x] Settings page to change currency.
+
+The following **optional** features are implemented:
+* [ ] UI animations
+* [x] Remembering the bill amount across app restarts (if <10mins)
+* [x] Using locale-specific currency and currency thousands separators.
+* [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+
+The following **additional** features are implemented:
+
+- [x] Also remembering the tip percentage across app restarts.
+
+The following features are implemented for **CoderSchool Select**
+
+- [x] Auto layout for all screen.
+- [x] Print receipt to image.
+
+
+## Video Walkthrough 
+
+Here's a walkthrough of implemented user stories:
+
+**CoderSchool Select version**
+
+![walkthrough.gif](walkthrough.gif)
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Notes
+
+## License
+
+    Copyright [2016] [Hieu Vo]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
