@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
     
-    let tipPercentages = [0.19, 0.20, 0.21]
+    let tipPercentages = [0.15, 0.20, 0.25]
     let defaults = NSUserDefaults.standardUserDefaults()
     var currentCurrency = ""
     
@@ -132,6 +132,23 @@ class ViewController: UIViewController {
         }
 
         view.endEditing(true)
+    }
+    
+    @IBAction func onPrintReceipt(sender: AnyObject) {
+        let tmpView = ReceiptView.instanceFromNib() as! ReceiptView
+        tmpView.setData([
+            "subtotal": billField.text!,
+            "tip": tipLabel.text!,
+            "total": totalLabel.text!
+        ])
+        
+        UIGraphicsBeginImageContextWithOptions(CGSizeMake(tmpView.frame.size.width, tmpView.frame.size.height), true, 0);
+        tmpView.drawViewHierarchyInRect(CGRectMake(0, 0, tmpView.frame.size.width, tmpView.frame.size.height), afterScreenUpdates: true)
+        let saveImage: UIImage = UIGraphicsGetImageFromCurrentImageContext();
+        
+        UIImageWriteToSavedPhotosAlbum(saveImage, nil, nil, nil)
+        
+        print("print receipt")
     }
     
     override func viewWillAppear(animated: Bool) {
